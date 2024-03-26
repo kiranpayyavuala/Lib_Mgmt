@@ -23,10 +23,10 @@ public class LibrarymanagementsystemApplication {
 	public CommandLineRunner initialCreate(BookService bookService) {
 		return (args) -> {
 
-			Book book = new Book("kiran isbn", "kiran name", "kiran serial name", "kiran description");
-			Author author = new Author("kiran author name", "kiran description");
-			Category category = new Category("kiran category name");
-			Publisher publisher = new Publisher("kiran publisher name");
+			Book book = new Book("devops isbn", "devops name", "devops serial name", "devops description");
+			Author author = new Author("devops author name", "devops description");
+			Category category = new Category("devops category name");
+			Publisher publisher = new Publisher("devops publisher name");
 
 			book.addAuthors(author);
 			book.addCategories(category);
@@ -34,10 +34,10 @@ public class LibrarymanagementsystemApplication {
 
 			bookService.createBook(book);
 
-			Book book1 = new Book("kiran isbn1", "kiran name1", "kiran serial name1", "kiran description1");
-			Author author1 = new Author("kiran author name1", "kiran description1");
-			Category category1 = new Category("kiran category name1");
-			Publisher publisher1 = new Publisher("kiran publisher name1");
+			Book book1 = new Book("devops isbn1", "devops name1", "devops serial name1", "devops description1");
+			Author author1 = new Author("devops author name1", "devops description1");
+			Category category1 = new Category("devops category name1");
+			Publisher publisher1 = new Publisher("devops publisher name1");
 
 			book1.addAuthors(author1);
 			book1.addCategories(category1);
@@ -45,10 +45,10 @@ public class LibrarymanagementsystemApplication {
 
 			bookService.createBook(book1);
 
-			Book book2 = new Book("kiran isbn2", "kiran name2", "kiran serial name2", "kiran description2");
-			Author author2 = new Author("kiran author name2", "kiran description2");
-			Category category2 = new Category("kiran category name2");
-			Publisher publisher2 = new Publisher("kiran publisher name2");
+			Book book2 = new Book("devops isbn2", "devops name2", "devops serial name2", "devops description2");
+			Author author2 = new Author("devops author name2", "devops description2");
+			Category category2 = new Category("devops category name2");
+			Publisher publisher2 = new Publisher("devops publisher name2");
 
 			book2.addAuthors(author2);
 			book2.addCategories(category2);
