@@ -13,8 +13,8 @@ phases:
 #      - add-apt-repository ppa:openjdk-r/ppa
 #      - pip install --user --upgrade awscli
 #      - apt-get install -y openjdk-8-jdk
-     - apt-get install -y maven
-      - apt-get update -y
+#      - apt-get install -y maven
+#      - apt-get update -y
     commands:
       - echo In the pre_build phase...
       - echo Logging in to Amazon ECR....
