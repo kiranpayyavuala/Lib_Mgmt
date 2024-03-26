@@ -23,10 +23,10 @@ public class LibrarymanagementsystemApplication {
 	public CommandLineRunner initialCreate(BookService bookService) {
 		return (args) -> {
 
-			Book book = new Book("devops isbn", "devops name", "devops serial name", "devops description");
-			Author author = new Author("devops author name", "devops description");
-			Category category = new Category("devops category name");
-			Publisher publisher = new Publisher("devops publisher name");
+			Book book = new Book("msc class isbn", "msc class name", "msc class serial name", "msc class description");
+			Author author = new Author("msc class author name", "msc class description");
+			Category category = new Category("msc class category name");
+			Publisher publisher = new Publisher("msc class publisher name");
 
 			book.addAuthors(author);
 			book.addCategories(category);
@@ -34,10 +34,10 @@ public class LibrarymanagementsystemApplication {
 
 			bookService.createBook(book);
 
-			Book book1 = new Book("devops isbn1", "devops name1", "devops serial name1", "devops description1");
-			Author author1 = new Author("devops author name1", "devops description1");
-			Category category1 = new Category("devops category name1");
-			Publisher publisher1 = new Publisher("devops publisher name1");
+			Book book1 = new Book("msc class isbn1", "msc class name1", "msc class serial name1", "msc class description1");
+			Author author1 = new Author("msc class author name1", "msc class description1");
+			Category category1 = new Category("msc class category name1");
+			Publisher publisher1 = new Publisher("msc class publisher name1");
 
 			book1.addAuthors(author1);
 			book1.addCategories(category1);
@@ -45,10 +45,10 @@ public class LibrarymanagementsystemApplication {
 
 			bookService.createBook(book1);
 
-			Book book2 = new Book("devops isbn2", "devops name2", "devops serial name2", "devops description2");
-			Author author2 = new Author("devops author name2", "devops description2");
-			Category category2 = new Category("devops category name2");
-			Publisher publisher2 = new Publisher("devops publisher name2");
+			Book book2 = new Book("msc class isbn2", "msc class name2", "msc class serial name2", "msc class description2");
+			Author author2 = new Author("msc class author name2", "msc class description2");
+			Category category2 = new Category("msc class category name2");
+			Publisher publisher2 = new Publisher("msc class publisher name2");
 
 			book2.addAuthors(author2);
 			book2.addCategories(category2);
