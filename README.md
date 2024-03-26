@@ -25,6 +25,7 @@ Jenkins: Executive shell
 ```
   
 ### Port
+
 ```
 Then go to http://127.0.0.1:8081 in your browser
 Then go to http://EC2_IP:8081 in your browser
@@ -32,6 +33,7 @@ Then go to http://EC2_IP:8081 in your browser
 
 
 ###To run the program in local server  by using the Docker use the following command
+
 ```
 docker build -t LibMgmt_img:latest .
 docker run -it --name LibMgmt -p 8081:8081 LibMgmt_img:latest
