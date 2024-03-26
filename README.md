@@ -18,6 +18,10 @@ For building and running the application you need:
 
 ```
   mvn clean install && mvn --projects backend spring-boot:run
+  
+Jenkins: Executive shell
+  mvn clean install
+  java-jar ./*.jar
 ```
   
 ### Port
@@ -29,8 +33,8 @@ Then go to http://EC2_IP:8081 in your browser
 
 ###To run the program in local server  by using the Docker use the following command
 ```
-docker build -t dummpy:latest .</code>
-docker run -it --name dummycontainer1 -p 8000:8000 dummpy:latest</code>
+docker build -t LibMgmt_img:latest .
+docker run -it --name LibMgmt -p 8081:8081 LibMgmt_img:latest
 `````
 
 
